@@ -28,6 +28,18 @@ public class StringExample {
 		System.out.println(str1);
 		System.out.println(str2);
 		
+		byte byteValue = 10;
+		int intValue = byteValue; 	// 자동 타입 변환
+		
+		long longValue = 10;
+		float floatValue = longValue;	// 5.0E9F
+		double doubleValue = longValue; // 5.0E9
+		
+		char charValue = 'A';
+		int inValue = charValue;	// 65
+		
+		//byte byteValue = 65;		// 1byte byte형은 char형에 대입 불가 자동 형변환 X
+		//char charValue = byteValue; // 에러
 		
 	}
 
